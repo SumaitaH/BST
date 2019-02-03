@@ -1,11 +1,14 @@
 public class node{
 	
-	private int value; 
-	private node leftNode; 
-	private node rightNode; 
+	public int value; 
+	public node leftNode; 
+	public node rightNode; 
 	
 	node(int val){
 		this.value = val; 
+	}
+	public int getValue() {
+		return value;
 	}
 	
 }
